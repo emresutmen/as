@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emre.as.MainActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/mavi">
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      app:srcCompat="@drawable/bucalogomaini" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_centerVertical="true"
+      android:layout_marginEnd="11dp"
+      app:srcCompat="@drawable/ayar" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_marginEnd="18dp"
+      android:layout_toStartOf="@+id/imageView3"
+      app:srcCompat="@drawable/mesaj" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/imageView3"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="12dp"
+      app:srcCompat="@drawable/ara" />
+</RelativeLayout>
+
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recyclerview"
+      android:layout_width="match_parent"
+      android:layout_height="438dp">
+
+  </android.support.v7.widget.RecyclerView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/mavi">
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="50dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      app:srcCompat="@drawable/kurulus" />
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="50dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      app:srcCompat="@drawable/activityac" />
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="50dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      app:srcCompat="@drawable/kullanici" />
+</LinearLayout>
+</LinearLayout>
